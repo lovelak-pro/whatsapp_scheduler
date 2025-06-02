@@ -36,7 +36,8 @@ The app will open WhatsApp Web in your browser and send the message at the speci
 1. **Clone this repository:**
 
    ```sh
-
+   git clone https://github.com/lovelak-pro/whatsapp_scheduler.git
+   cd whatsapp_scheduler
    ```
 
 2. **Install dependencies:**
