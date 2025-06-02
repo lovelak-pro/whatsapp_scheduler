@@ -1,0 +1,128 @@
+@font-face {
+  font-family: fnt;
+  src: url(../fonts/HomeVideo-BLG6G.ttf);
+}
+/* Chrome, Safari, Edge, Opera */
+#wa-number::-webkit-outer-spin-button,
+#wa-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#wa-number[type="number"] {
+  -moz-appearance: textfield;
+}
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #9c9c9c);
+}
+.container {
+  max-width: 400px;
+  height: 538px;
+}
+input {
+  font-family: fnt;
+}
+h1 {
+  font-family: fnt;
+  font-weight: lighter;
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+fieldset {
+  width: 300px;
+  text-align: left;
+  padding: 0%;
+  margin-bottom: 15px;
+  border: none;
+  display: inline-block;
+}
+legend {
+  font-size: 13px;
+  font-family: fnt;
+}
+#wa-number {
+  width: 300px;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #a0a0a0;
+  border-radius: 4px;
+}
+#wa-number:focus {
+  outline: none;
+  border-color: #007bff;
+}
+textarea {
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border: 1px solid #a0a0a0;
+  font-size: 20px;
+  width: 300px;
+  height: 100px;
+  resize: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+#current-time {
+  display: inline;
+  font-family: fnt;
+  font-size: 18px;
+  padding: 0%;
+  margin: 0%;
+}
+
+#delay-time {
+  width: 130px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #a0a0a0;
+
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border-radius: 4px;
+  margin: 10px;
+}
+#delay-time:hover {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  font-family: fnt;
+  font-size: large;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border: 1px solid #a0a0a0;
+  border-radius: 5px;
+}
+button:hover {
+  border-color: #007bff;
+}
+#result {
+  font-family: fnt;
+  font-size: 15px;
+  color: red;
+  margin-top: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+  font-family: fnt;
+  font-size: 12px;
+  color: black;
+}
+footer a {
+  color: black;
+}

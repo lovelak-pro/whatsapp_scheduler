@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body onload="startTime()">
+    <div class="container">
+      <h1>WhatsApp Message Scheduler</h1>
+      <p></p>
+      <fieldset>
+        <legend>Enter WhatsApp number ( Without 0 )</legend>
+        <input type="number" name="" id="wa-number" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Enter your message</legend>
+        <textarea name="" id="user-message" rows="10"></textarea>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Current Time</legend>
+        <p id="current-time"></p>
+        <input type="time" name="" id="delay-time" />
+      </fieldset>
+      <br />
+      <button id="btn" onclick="fetchMessage()">Deploy Message!</button>
+      <br />
+      <p id="result"></p>
+      <footer>
+        <p>
+          Made by <a href="http://lovelak.rf.gd" target="_blank">Lovelak</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="assets/js/script.js"></script>
+</html>
